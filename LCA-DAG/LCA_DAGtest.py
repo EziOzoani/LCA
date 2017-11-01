@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
         root.left.right = LCA_DAG.Node(5)
         root.right.left = LCA_DAG.Node(6)
         root.right.right = LCA_DAG.Node(7)
-        self.assertEqual(2,LCA_DAG.findLCA(root, 4, 5, ))
+        self.assertEqual(2,LCA_DAG.findLCA_DAG(root, 4, 5, ))
  
     def test2Nodes(self):
         root = LCA_DAG.Node(1)

@@ -1,5 +1,5 @@
 class Node:
-    # Constructor to create a new binary node
+    # Constructor to create a new tree node
 
 
     def __init__(self, key):
@@ -7,6 +7,7 @@ class Node:
         self.left = None
         self.right = None
 
+"""
 def checkAncestor(parent,child):
     previst = parent
     currentVisit =root.nextNode
@@ -17,9 +18,7 @@ def checkAncestor(parent,child):
     
     return 0
 
-
- 
- 
+""" 
 # Finds the path from root node to given root of the tree.
 # Stores the path in a list path[], returns true if path
 # exists otherwise false
